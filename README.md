@@ -79,4 +79,4 @@ UltraCore RFT (RFT-SIRM): https://github.com/RFT-SIRM/UltraCore-RFT
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+_Copyright 2026 Eugeny (RFT-SIRM). Licensed under [Apache 2.0](LICENSE)._
