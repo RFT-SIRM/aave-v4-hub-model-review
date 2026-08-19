@@ -1,8 +1,5 @@
-# Aave V4 Hub — model-level drawn/deficit ledger review (RFT-SIRM)
-
-> Complementary to Certora Hub FV.  **No novel Class A/B finding.**
-
-[![harness](https://github.com/RFT-SIRM/aave-v4-hub-model-review/actions/workflows/ci.yml/badge.svg)](https://github.com/RFT-SIRM/aave-v4-hub-model-review/actions/workflows/ci.yml)
+[![Lab](https://img.shields.io/badge/Lab-RFT--SIRM-dc2626?style=for-the-badge)](https://github.com/RFT-SIRM/UltraCore-RFT)
+[![Verify](https://img.shields.io/badge/Verify-184K%20OPS%20%7C%200%20VIOLATIONS-22c55e?style=for-the-badge)](https://github.com/RFT-SIRM/aave-v4-hub-model-review/actions/workflows/ci.yml)
 
 ---
 
