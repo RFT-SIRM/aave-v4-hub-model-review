@@ -1,0 +1,18 @@
+name: harness
+on:
+  push:
+  pull_request:
+jobs:
+  invariants:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: py_compile
+        run: python3 -m py_compile poc_hub_state_machine.py
+      - name: run model harness
+        run: python3 poc_hub_state_machine.py | tee harness_out.txt
+      - name: assert PASS
+        run: grep -q "ALL INVARIANTS HELD" harness_out.txt
